@@ -863,7 +863,7 @@ do
 
         function ColorPicker:OnChanged(Func)
             ColorPicker.Changed = Func;
-            Func(ColorPicker.Value)
+            Func(ColorPicker)
         end;
 
         function ColorPicker:Show()
